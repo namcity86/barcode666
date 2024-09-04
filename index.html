@@ -1,4 +1,14 @@
-
+<?php
+$home_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$title =  'Chuyển số thành mã vạch code 128';
+$desc = 'Cung cấp dịch vụ chuyển số thành mã vạch CODE 128, in mã vạch ra giấy, có thể hoạt động với số lượng lớn, nhanh, ổn định phù hợp với mọi thiết bị.';
+$favicon = 'favicon.png';
+$keyword = 'chuyển số thành barcode, code 128, in mã vạch, chuyển số thành barcode 128';
+$author = 'IT Miền Bắc 2';
+$image = $home_url.'img/image-barcode128.jpg';
+$verification = '';
+$ID_googletagmanager = '165867589-1';
+?>
 <!DOCTYPE html>
 <html lang="vi">
 <head>
